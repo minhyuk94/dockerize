@@ -25,5 +25,5 @@ services:
       dockerfile: composer.dockerfile
     volumes:
       - ./src:/var/www/html
-  artisan:
-  npm:
+  # artisan:
+  # npm:
