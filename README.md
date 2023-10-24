@@ -34,3 +34,7 @@ docker-compose up -d
 docker-compose up -d --build server
 ```
 
+### artisan, npm container 추가 후 실행
+```
+docker-compose run --rm artisan migrate
+```
